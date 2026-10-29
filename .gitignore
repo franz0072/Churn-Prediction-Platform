@@ -1,0 +1,29 @@
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Virtual environment
+.venv/
+venv/
+
+# Environment variables and secrets
+.env
+.env.*
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+
+# Test and cache files
+.pytest_cache/
+.coverage
+
+# Generated data
+data/processed_churn.csv
+
+# Generated model
+models/*.joblib
